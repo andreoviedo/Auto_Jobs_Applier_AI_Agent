@@ -7,41 +7,62 @@ experience_level:
   entry: true
   associate: true
   mid_senior_level: true
-  director: false
+  director: true
   executive: false
 
 job_types:
   full_time: true
   contract: false
   part_time: false
-  temporary: true
+  temporary: false
   internship: false
   other: false
-  volunteer: true
+  volunteer: false
 
 date:
   all_time: false
-  month: false
+  month: true
   week: false
-  24_hours: true
+  24_hours: false
 
 positions:
   - Software engineer
+  - Quantitative researcher
+  - Quantitative developer
+  - Quantitative analyst
+  - Quantitative trader
+  - Quantitative investment manager
+  - Quantitative risk manager
+  - Quantitative strategist
+  - Quantitative engineer
+  - Quantitative Portfolio manager
+  - Risk Manager
+  - Head of Risk
+  - Data Scientist
+  - Data Analyst
+  - Data Engineer
+  - Data Architect
+  - Data Manager
+  - Research Associate
+  - Research Analyst
+  - Research Engineer
+  - Research Manager
 
 locations:
-  - Germany
+  - Chicago
+  - New York
+  - San Francisco
+  - London
+  - Paris
 
 apply_once_at_company: true
 
-distance: 100
+distance: 20
 
 company_blacklist:
   - wayfair
   - Crossover
 
 title_blacklist:
-  - word1
-  - word2
 
 location_blacklist:
-  - Brazil
